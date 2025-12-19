@@ -16,7 +16,7 @@ namespace Dnevnik_Andjela_Simic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Osoba());
+            Application.Run(new Login());
         }
     }
 }
