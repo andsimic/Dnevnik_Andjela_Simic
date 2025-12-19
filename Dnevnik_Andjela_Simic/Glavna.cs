@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +19,7 @@ namespace Dnevnik_Andjela_Simic
 
         private void buttonX_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
         }
 
         private void osobaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -30,8 +30,14 @@ namespace Dnevnik_Andjela_Simic
 
         private void upisnicaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           // upisnica nova = new upisnica();
-           // nova.ShowDialog();
+            Upisnica nova = new Upisnica();
+            nova.ShowDialog();
+        }
+
+        private void Glavna_Load(object sender, EventArgs e)
+        {
+
         }
     }
+}
 }
