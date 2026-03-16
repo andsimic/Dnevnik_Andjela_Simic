@@ -80,6 +80,12 @@
     <Compile Include="Raspodela.Designer.cs">
       <DependentUpon>Raspodela.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sifarnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sifarnik.Designer.cs">
+      <DependentUpon>Sifarnik.cs</DependentUpon>
+    </Compile>
     <Compile Include="Upisnica.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     </Compile>
     <EmbeddedResource Include="Raspodela.resx">
       <DependentUpon>Raspodela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sifarnik.resx">
+      <DependentUpon>Sifarnik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Upisnica.resx">
       <DependentUpon>Upisnica.cs</DependentUpon>

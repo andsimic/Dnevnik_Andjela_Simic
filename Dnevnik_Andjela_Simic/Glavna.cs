@@ -19,7 +19,7 @@ namespace Dnevnik_Andjela_Simic
 
         private void buttonX_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Application.Exit();
         }
 
         private void osobaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -38,6 +38,29 @@ namespace Dnevnik_Andjela_Simic
         {
 
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Sifarnik nova = new Sifarnik("smer");
+            nova.ShowDialog();
+        }
+
+        private void predmetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik nova = new Sifarnik("predmet");
+            nova.ShowDialog();
+        }
+
+        private void skolskaGodinaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sifarnik nova = new Sifarnik("skolska_godina");
+            nova.ShowDialog();
+        }
+
+        private void raspodelaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
-}
+

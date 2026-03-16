@@ -20,7 +20,7 @@ namespace Dnevnik_Andjela_Simic
 
         private void buttonX_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
         }
 
         private void Raspodela_Load(object sender, EventArgs e)
